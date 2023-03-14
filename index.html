@@ -11,28 +11,28 @@
 
 <body>
     <header>
-        <img src="logo.svg" alt="logo" width="100">
+        <img src="img/logo.svg" alt="logo" width="100">
         <h1>Tabuada</h1>
     </header>
     <section>
         <div>
             <p>
-                <label for="num1">Qual taboada você deseja saber?</label> <br>
-                <input class="form" id="num1" type="number" placeholder="Insira o numero para taboada">
+                <label for="num">Qual taboada você deseja saber?</label> <br>
+                <input class="form" id="num" type="number" placeholder="Insira o numero para taboada">
             </p>
 
             <p>
 
-                <label for="num2">Até que número você quer?</label> <br>
-                <input class="form" id="num2" type="number" placeholder="Insira o numero final">
+                <label for="end">Até que número você quer?</label> <br>
+                <input class="form" id="end" type="number" placeholder="Insira o numero final">
             </p>
             <p>
-                <input id="btn" type="button" value="Calcular">
+                <input id="btn" type="button" value="Calcular" onclick="Tabuada()">
             </p>
 
         </div>
 
-        <div id="resposta">
+        <div id="answer">
             Preencha os valores acima!
         </div>
 
@@ -40,6 +40,8 @@
 
 
     </section>
+
+    <script src="js/tabuada.js"></script>
 
 </body>
 
